@@ -1,0 +1,3122 @@
+{
+  "source_file": "CRM Reporting_v5_Quarter_Performance_MVP.pbix",
+  "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+  "model_extraction_status": "XPRESS9_NOT_DECODED",
+  "counts": {
+    "pages": 23,
+    "visiblePages": 12,
+    "hiddenPages": 11,
+    "visualContainers": 607,
+    "referencedMeasures": 53,
+    "bookmarks": 14
+  },
+  "pages": [
+    {
+      "id": "c338780ec2c33bd62738",
+      "title": "Front Page_FULL",
+      "hidden": true
+    },
+    {
+      "id": "d6d51cfd47ae4d53041e",
+      "title": "Front Page",
+      "hidden": false
+    },
+    {
+      "id": "e9fb9076fe9caa4e4077",
+      "title": "Quarter Performance",
+      "hidden": false
+    },
+    {
+      "id": "780d55b3ab55013da137",
+      "title": "Deals Summary Table",
+      "hidden": false
+    },
+    {
+      "id": "8f5a89099a25acb4b917",
+      "title": "Platform Deals Summary Table",
+      "hidden": false
+    },
+    {
+      "id": "07cbfb819a233f1aa535",
+      "title": "Leads Segment by Platform",
+      "hidden": false
+    },
+    {
+      "id": "fe8c2cbc951097554ed8",
+      "title": "Leads Segment by Country",
+      "hidden": false
+    },
+    {
+      "id": "6fb2ffaab007dd022056",
+      "title": "Leads Segment by Originator",
+      "hidden": false
+    },
+    {
+      "id": "07b27d4fd2e8958cb4be",
+      "title": "Deal Funnel",
+      "hidden": false
+    },
+    {
+      "id": "5f786826b34d61e0da48",
+      "title": "Line Chart",
+      "hidden": true
+    },
+    {
+      "id": "eef00b24415d7573e6ad",
+      "title": "Usage",
+      "hidden": false
+    },
+    {
+      "id": "7e2b10a9db665da03d90",
+      "title": "Top Central Deals",
+      "hidden": false
+    },
+    {
+      "id": "09c76d0e80828350a239",
+      "title": "Top Platform Leads",
+      "hidden": false
+    },
+    {
+      "id": "d671c4ce8f0759bbef05",
+      "title": "Platform Top Leads",
+      "hidden": true
+    },
+    {
+      "id": "bcdaee8021b321dbd6af",
+      "title": "Rank Segments Chart",
+      "hidden": true
+    },
+    {
+      "id": "8304caf3fecb695179fc",
+      "title": "Funnel Tooltip €",
+      "hidden": true
+    },
+    {
+      "id": "b682390c077ff03ff6d0",
+      "title": "Funnel Tooltip",
+      "hidden": true
+    },
+    {
+      "id": "cc9718354198484e5790",
+      "title": "DQ",
+      "hidden": true
+    },
+    {
+      "id": "c0791b7f80a092060eda",
+      "title": "DQ Notes",
+      "hidden": true
+    },
+    {
+      "id": "04b7dcd859a2acc7810b",
+      "title": "Page 1",
+      "hidden": true
+    },
+    {
+      "id": "8127012a88be805b3080",
+      "title": "Page 3",
+      "hidden": true
+    },
+    {
+      "id": "a82e050b32c4d6dbe6bd",
+      "title": "Duplicate of Usage",
+      "hidden": true
+    },
+    {
+      "id": "74c4e9b59cad4090e9bf",
+      "title": "Notes",
+      "hidden": false
+    }
+  ],
+  "visuals": [
+    {
+      "page_id": "c338780ec2c33bd62738",
+      "id": "0368b3afde876ea93440",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "c338780ec2c33bd62738",
+      "id": "977bcd4b6dff8decae94",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "c338780ec2c33bd62738",
+      "id": "bc1c4bf6ae1e69cabdb2",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "c338780ec2c33bd62738",
+      "id": "cefbb6784f84af0f5d6a",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "c338780ec2c33bd62738",
+      "id": "da8b7ebdf685bd48b717",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "c338780ec2c33bd62738",
+      "id": "e8b8187945e5dc04f681",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "c338780ec2c33bd62738",
+      "id": "eefb70f09e46de6a8f49",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "c338780ec2c33bd62738",
+      "id": "f12e6bdb6930a13ce35b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "c338780ec2c33bd62738",
+      "id": "f363cbc4bfbf3dca2cfd",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "c338780ec2c33bd62738",
+      "id": "3b9eafc2ec31181904ae",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "1322fc41981452897ee3",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "198d4fd96e74f6b4224f",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "26df9fc01cb13652186b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "2dfe18170bf1eb063187",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "4496df171f812510a2c4",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "48293d09641fe86c0634",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "63db0ce25e31d8b2a286",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "a1247519a7d6a1fc93e0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "fed715a17f1c29f6d1d3",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "55d1a8acd173cfaaca57",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "d6d51cfd47ae4d53041e",
+      "id": "dd65d2c3b897f0346ee3",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "bc81218097a2a549f075",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "22bb00a877b1667e72b5",
+      "type": "cardVisual",
+      "fields": [
+        "_QuarterComparison[Q. Deal Share %]",
+        "_QuarterComparison[Q. Deals QoQ %]",
+        "_QuarterComparison[Q. Deals YoY %]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "2520869d2894f7d64790",
+      "type": "cardVisual",
+      "fields": [
+        "_QuarterComparison[Q. Comparison Note]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "3d3aa269bdf829ab3228",
+      "type": "lineClusteredColumnComboChart",
+      "fields": [
+        "User Access Platform[Active Users Trend]",
+        "_QuarterComparison[Q. Deals Current]",
+        "_QuarterComparison[Q. Deals QoQ %]",
+        "_QuarterSelector[Quarter Label]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "8595ad90d8fc50e062e1",
+      "type": "pivotTable",
+      "fields": [
+        "Pipeline[Originator]",
+        "_QuarterComparison[Period]",
+        "_QuarterComparison[Q. Deals Comparison]",
+        "_QuarterComparison[Quarter]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "a222e2a3b508f78bfcc6",
+      "type": "advancedSlicerVisual",
+      "fields": [
+        "_QuarterSelector[Quarter Label]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "118b33f10d82fd503cc0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "2132d775682e88f4f4ae",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Vertical]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "27f76dfc6f553f614b88",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "2924f62feeb6e0f88002",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "35267e35ed7e33a11bdd",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "45f7515ec1d058569fdb",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "975c5f4d6c683431d693",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[AmountInEuro]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "9f967eb691cd810a0650",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "c2582705c5d0a6b8e588",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Stage Snapshot]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "d3c37b42380d4190c514",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "d45c03e432f87c278d0a",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "f3e5018e10778002db19",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "afcad4e30e1c469b2af6",
+      "type": "hundredPercentStackedColumnChart",
+      "fields": [
+        "Pipeline[CreatedOn]",
+        "Pipeline[RecordType]",
+        "User Access Platform[Active Users Trend]",
+        "User Access Platform[Platform]",
+        "_QuarterComparison[Q. Deal Share %]",
+        "_QuarterSelector[Quarter Label]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "b4d9e18c89f6d1c69701",
+      "type": "cardVisual",
+      "fields": [
+        "_QuarterComparison[Q. Matrix Comparison Subtitle]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "d10c1346ba3734f7921a",
+      "type": "pivotTable",
+      "fields": [
+        "Pipeline[Platform]",
+        "_QuarterComparison[Period]",
+        "_QuarterComparison[Q. Deals Comparison]",
+        "_QuarterComparison[Quarter]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "132af6c6d1601ebdc1de",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "30cbd48cf39f601023db",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "41b50d948ead280f162e",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "4fd9e0380abad4083c50",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "65879eafdaf32b68b4df",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "b8d18b189729f0e427ec",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "e542fb563e5eeb76c874",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "f57bcd67387a810e29b3",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "e9fb9076fe9caa4e4077",
+      "id": "feaf9a41cd844d35ba8c",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "4b24dddfb6c94e3a4a64",
+      "type": "textbox",
+      "fields": [
+        "_CustomMeasures[0. Country Header]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "21862be0b6c868b69433",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "228f5b833a0593d61911",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "819d0d5904c34709410d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "9bfcb255716a505a9208",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "c4e4949408a2e19606d2",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "d009837f0d2050d60643",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "da68122e89ad031c1517",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "e2f54ff5e43dda2c73b2",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "fd6ffcc8df3b937e952e",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "043bc8b1076c1bb562b3",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "1b0d1690684780770b91",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "1bd04c0556a9c95a8615",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "81784f299bda66389987",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "964e3cd87c9b04a09208",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "bf1850015ed75a90557b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "d0dba49de012adb7557c",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "e7447df11468341e0c8d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "2e06ed1900072410ed40",
+      "type": "tableEx",
+      "fields": [
+        "Investment Allocation[% Achievement vs 2026 PP]",
+        "Investment Allocation[PP 2026 Budget]",
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Average Deal Age Column]",
+        "Pipeline[CRM Record URL]",
+        "Pipeline[ClosedOn]",
+        "Pipeline[ClosureReason]",
+        "Pipeline[CreatedOn]",
+        "Pipeline[LastDealStatus]",
+        "Pipeline[Name]",
+        "Pipeline[Originator]",
+        "Pipeline[OwnerName]",
+        "Pipeline[Platform]",
+        "Pipeline[RecordType]",
+        "Pipeline[Segment]",
+        "Pipeline[Seller]",
+        "Pipeline[Stage Snapshot]",
+        "Pipeline[Terminal Snapshot]",
+        "Pipeline[Vertical]",
+        "_DimStage[Stage (Display)]"
+      ]
+    },
+    {
+      "page_id": "780d55b3ab55013da137",
+      "id": "3b8bb8b735d7a79086c6",
+      "type": "pivotTable",
+      "fields": [
+        "Pipeline[Segment]",
+        "_CustomMeasures[0. Pipeline Matrix Cell 2]",
+        "_DimStage[Stage (Display)]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "c3909918369a2ba3acd1",
+      "type": "textbox",
+      "fields": [
+        "_CustomMeasures[0. Country Header]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "60dd1abae9b64098aed0",
+      "type": "tableEx",
+      "fields": [
+        "Investment Allocation[% Achievement vs 2026 PP]",
+        "Investment Allocation[PP 2026 Budget]",
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Average Deal Age Column]",
+        "Pipeline[CRM Record URL]",
+        "Pipeline[ClosedOn]",
+        "Pipeline[ClosureReason]",
+        "Pipeline[CreatedOn]",
+        "Pipeline[LastDealStatus]",
+        "Pipeline[Name]",
+        "Pipeline[Originator]",
+        "Pipeline[OwnerName]",
+        "Pipeline[Platform]",
+        "Pipeline[RecordType]",
+        "Pipeline[Segment]",
+        "Pipeline[Seller]",
+        "Pipeline[Stage Snapshot]",
+        "Pipeline[Terminal Snapshot]",
+        "Pipeline[Vertical]",
+        "_DimStage[Stage (Display)]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "06006d69097cabdb4e9e",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "1d4712faae65765b353a",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "37c1e3d1c088d0e577dd",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "5858e9eaae36d47b07c3",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "61ce547223762eec012d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "9e87776b09277d250aae",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "e3196affd08ad4e10288",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "e4fd4ba8db10530ba39c",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "d2acb764bc837ee02c45",
+      "type": "pivotTable",
+      "fields": [
+        "Pipeline[Platform]",
+        "Pipeline[Segment]",
+        "_CustomMeasures[0. Pipeline Matrix Cell 3]",
+        "_DimStage[Stage (Display)]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "0a01d6aae37b1984c3ac",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "1df6746a0e9ab3b609ea",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "3d616e02b8057106989e",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "4775954a068e1b0b9404",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "4a083baf0c16e7b0a66a",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "cc5a26801a83561cc29b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "d3543557c2abb1280320",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "e273f42883c8076ea950",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "8f5a89099a25acb4b917",
+      "id": "093b8d1d97e4f682a16b",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "0363523b4606f437c5f6",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "243276d8d31e7ae7f009",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "2d8c53994555bb694536",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "6d086dcf1ea1b04dbf40",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "8be9a7e0bb108c6c639e",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "a4987f50605d09feb012",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "c0af968c17c2190bcbcc",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "de6b97ccee71081b3a01",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "40bcce6065d90a4023da",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "b5eb2675c3b61b6bd4b0",
+      "type": "slicer",
+      "fields": [
+        "LocalDateTable_86a98422-0bab-43b5-af1b-bc4a6a8873a3[Year]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "aa5813df32851163bd53",
+      "type": "hundredPercentStackedColumnChart",
+      "fields": [
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Platform]",
+        "Pipeline[RecordId]",
+        "Pipeline[Segment]",
+        "_CustomMeasures[Pipeline Count Label Platform]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "b280e0d71d19085010aa",
+      "type": "cardVisual",
+      "fields": [
+        "_CustomMeasures[Deal Amount]",
+        "_CustomMeasures[Pipeline Count Label]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "c01a804aacccb1c90099",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[RecordType]"
+      ]
+    },
+    {
+      "page_id": "07cbfb819a233f1aa535",
+      "id": "d8253ce0bad3093010e9",
+      "type": "tableEx",
+      "fields": [
+        "Investment Allocation[% Achievement vs 2026 PP]",
+        "Investment Allocation[PP 2026 Budget]",
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Average Deal Age Column]",
+        "Pipeline[CRM Record URL]",
+        "Pipeline[ClosedOn]",
+        "Pipeline[ClosureReason]",
+        "Pipeline[CreatedOn]",
+        "Pipeline[LastDealStatus]",
+        "Pipeline[Name]",
+        "Pipeline[Originator]",
+        "Pipeline[OwnerName]",
+        "Pipeline[Platform]",
+        "Pipeline[Segment]",
+        "Pipeline[Seller]",
+        "Pipeline[Stage Snapshot]",
+        "Pipeline[Terminal Snapshot]",
+        "Pipeline[Vertical]",
+        "_DimStage[Stage (Display)]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "2c2aeebe81e28fff6d38",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "3a490f68d1b05406c90d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "7de76b4608900bd9dc6d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "7e02d465042ccea80260",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "a643b86408cd104700b6",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "a98b20e680781a4d2ca8",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "ac4605f0c8086a66dd03",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "bd8956b04dc2909d3721",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "d754963704258427bb46",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "54796b41da686673e906",
+      "type": "tableEx",
+      "fields": [
+        "Investment Allocation[% Achievement vs 2026 PP]",
+        "Investment Allocation[PP 2026 Budget]",
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Average Deal Age Column]",
+        "Pipeline[CRM Record URL]",
+        "Pipeline[ClosedOn]",
+        "Pipeline[ClosureReason]",
+        "Pipeline[CreatedOn]",
+        "Pipeline[LastDealStatus]",
+        "Pipeline[Name]",
+        "Pipeline[Originator]",
+        "Pipeline[OwnerName]",
+        "Pipeline[Platform]",
+        "Pipeline[Segment]",
+        "Pipeline[Seller]",
+        "Pipeline[Stage Snapshot]",
+        "Pipeline[Terminal Snapshot]",
+        "Pipeline[Vertical]",
+        "_DimStage[Stage (Display)]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "3a5b311e5cd6e05e517e",
+      "type": "slicer",
+      "fields": [
+        "LocalDateTable_86a98422-0bab-43b5-af1b-bc4a6a8873a3[Year]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "8b999d40ca305577508a",
+      "type": "cardVisual",
+      "fields": [
+        "_CustomMeasures[Deal Amount]",
+        "_CustomMeasures[Pipeline Count Label]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "a2f7fdb012985525039d",
+      "type": "hundredPercentStackedColumnChart",
+      "fields": [
+        "Pipeline[AmountInEuro]",
+        "Pipeline[CountryName]",
+        "Pipeline[RecordId]",
+        "Pipeline[Segment]",
+        "_CustomMeasures[Pipeline Count Label Country]"
+      ]
+    },
+    {
+      "page_id": "fe8c2cbc951097554ed8",
+      "id": "d4da61b9a0c938935671",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[RecordType]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "1d46b47b5602017d8154",
+      "type": "donutChart",
+      "fields": [
+        "Pipeline[RecordId]",
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "311664f4d0320b3b8b02",
+      "type": "cardVisual",
+      "fields": [
+        "_CustomMeasures[Deal Amount]",
+        "_CustomMeasures[Pipeline Count Label]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "39699063e5b4a9ad799b",
+      "type": "listSlicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "595693e56b78a9ba3359",
+      "type": "tableEx",
+      "fields": [
+        "Investment Allocation[% Achievement vs 2026 PP]",
+        "Investment Allocation[PP 2026 Budget]",
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Average Deal Age Column]",
+        "Pipeline[CRM Record URL]",
+        "Pipeline[ClosedOn]",
+        "Pipeline[ClosureReason]",
+        "Pipeline[CreatedOn]",
+        "Pipeline[LastDealStatus]",
+        "Pipeline[Name]",
+        "Pipeline[Originator]",
+        "Pipeline[OwnerName]",
+        "Pipeline[Platform]",
+        "Pipeline[Segment]",
+        "Pipeline[Seller]",
+        "Pipeline[Stage Snapshot]",
+        "Pipeline[Terminal Snapshot]",
+        "Pipeline[Vertical]",
+        "_DimStage[Stage (Display)]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "3816cb14ddf0e3dc2299",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "695a74c957b809891b39",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "847723ac815c495e0384",
+      "type": "barChart",
+      "fields": [
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Originator]",
+        "Pipeline[Platform]",
+        "Pipeline[RecordId]",
+        "Pipeline[Segment]",
+        "_CustomMeasures[Pipeline Count Label Platform]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "aadea78c8e9574603ea2",
+      "type": "slicer",
+      "fields": [
+        "LocalDateTable_86a98422-0bab-43b5-af1b-bc4a6a8873a3[Year]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "93b971779070ec358d75",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[RecordType]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "06b9e4bbcc000618dc83",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "09c9f5053309d02e4748",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "34b6a0052ac773d40087",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "42dc51a7d384000795b6",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "60067e1720be3746c682",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "8933d8a83a5b734d32aa",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "b1540667090803ab2339",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "6fb2ffaab007dd022056",
+      "id": "f227ef4cb2e6589a221a",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "cb2ec1b2377718675697",
+      "type": "htmlContent443BE3AD55E043BF878BED274D3A6865",
+      "fields": [
+        "_CustomMeasures[2. Funnel Active HTML (Amount €) 2]",
+        "_DimStage[Stage Index]",
+        "_DimStage[Stage Name]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "0b62d9bf02883107d26b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "0e54ce32413963558952",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "4989dbade1855001d160",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "4b0f7c0540b186be2303",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "9382252e9b37b9887101",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]",
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "9969907e0083a7daa047",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "9dd9a819bb228290e1de",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "d06931d701a7532d7052",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "e447abd7e3cb8994cc0a",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "064c705331baa7ab704e",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "23feb42190920b187583",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "24de2e11b3726000a30d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "2d8a8b10044a1a0151e5",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "8ec4531f2a6aa073d651",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "8f60ca17501ca0da076a",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "9ab6682d65b4b8a0160b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "b16dea3feedc4e9014e6",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "c0683219450b6601c3b9",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "bbc07b2793428ebbc190",
+      "type": "htmlContent443BE3AD55E043BF878BED274D3A6865",
+      "fields": [
+        "_CustomMeasures[2. Lost Bubble HTML (Amount €) 2]",
+        "_DimStage[Stage Index]",
+        "_DimStage[Stage Name]"
+      ]
+    },
+    {
+      "page_id": "07b27d4fd2e8958cb4be",
+      "id": "ea8bc7d930232ad9d814",
+      "type": "cardVisual",
+      "fields": [
+        "Investment Allocation[% Achievement vs 2026 PP]",
+        "Investment Allocation[PP 2026 Budget]",
+        "Pipeline[ActiveStage]",
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Average Deal Size]",
+        "Pipeline[Lose Rate %]",
+        "Pipeline[RecordId]",
+        "Pipeline[Win Rate]",
+        "_CustomMeasures[Average Deal Age (Won only)]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "08c86be47aac1507083d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "2519ee69e2dd9b9121c2",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "53c5f460c050ce93e844",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Vertical]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "85ace2d8bba76105d31d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "8807ea12517897dce612",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "9f6dea28b4b94ab89214",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "c4d21a1beb5c5db4ce29",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "e0901020cc5652b2a610",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "e6ed4e1b0c65e502bb1c",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[AmountInEuro]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "f21c167ac37e90102461",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Stage Snapshot]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "fa45c536e099a37b9373",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "002ff2a409dd637e9be0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "279463c8c7aabc0c5613",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "4fa7ed25ada28346a01b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "568ad210a7d63b275537",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "769919d77d0c0ce992b3",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "ab739f7648251132e17b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "af3ff41678ab9324ad09",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "ecee6f883d0d084c0cee",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "8bfa90ce0096e8b91396",
+      "type": "htmlContent443BE3AD55E043BF878BED274D3A6855",
+      "fields": [
+        "Pipeline[Month Year]",
+        "_CustomMeasures[0. Deals Trend + Cumulative HTML]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "04dd275231d65c500008",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "50ee017a8441d3d5cb72",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "97958860760d0ead54ed",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "a97f0572c91dd39bcb36",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "b7590128074e7e99545c",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "c0bc84b59d31559d1e0c",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "d1209bb6badb0c2bc0c8",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "d6d392a916906e4c7175",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "5f786826b34d61e0da48",
+      "id": "e9241fd019a1a0577b91",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "3cddb18a0c0572d6196d",
+      "type": "tableEx",
+      "fields": [
+        "LocalDateTable_253fc53b-1595-46f0-a8a2-83d5831fe0c7[Year]",
+        "Pipeline[CreatedOn]",
+        "User Access Platform[ActiveUsers]",
+        "User Access Platform[Login Rate %]",
+        "User Access Platform[Non-Accessed Users]",
+        "User Access Platform[Platform]",
+        "User Access Platform[Total Licensed Users]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "413365d26be69c4d8050",
+      "type": "cardVisual",
+      "fields": [
+        "User Access Platform[Active Users]",
+        "User Access Platform[Login Rate %]",
+        "User Access Platform[Total Licensed Users]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "30edde28a87776e5cb04",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "6851eca3ae6657893333",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "bcd6477659fa380c5a9f",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "c9f0c76dcafee6ada723",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "daa669f6c6ecfe61a90c",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "ee3e529943905993b7cf",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "ef97e329b4104bf98508",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "ff88b5a56a45bf03e245",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "6e734e1bc809bfbbf009",
+      "type": "hundredPercentStackedColumnChart",
+      "fields": [
+        "Pipeline[CreatedOn]",
+        "User Access Platform[Active Users Trend]",
+        "User Access Platform[Active Users]",
+        "User Access Platform[Login Rate %]",
+        "User Access Platform[Non-Accessed Users]",
+        "User Access Platform[Platform]",
+        "User Access Platform[Total Licensed Users]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "9f0e5649cd48edc4a842",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "eef00b24415d7573e6ad",
+      "id": "d82551409d5951d172e8",
+      "type": "clusteredBarChart",
+      "fields": [
+        "User Access Platform[Login Rate %]",
+        "User Access Platform[Platform]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "04b67113a9589290ab9a",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "0af42faa1c0cb71a35b0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "1ab1bfa300b4b1828721",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "7d3b55e005de68a5a323",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "97073955c65b938555c8",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "a313c72ee65d5a02735e",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "a4d970b5991602384202",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "ee8f5aa0353ae240400d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "f4c2afd4b478915e8e0b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "5f37ea8ce034b591b1a2",
+      "type": "tableEx",
+      "fields": [
+        "Investment Allocation[% Achievement vs 2026 PP]",
+        "Investment Allocation[PP 2026 Budget]",
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Average Deal Age Column]",
+        "Pipeline[CRM Record URL]",
+        "Pipeline[ClosedOn]",
+        "Pipeline[ClosureReason]",
+        "Pipeline[CreatedOn]",
+        "Pipeline[LastDealStatus]",
+        "Pipeline[Name]",
+        "Pipeline[Originator]",
+        "Pipeline[OwnerName]",
+        "Pipeline[Platform]",
+        "Pipeline[Segment]",
+        "Pipeline[Seller]",
+        "Pipeline[Stage Snapshot]",
+        "Pipeline[Terminal Snapshot]",
+        "Pipeline[Vertical]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "0df374094b44b0e4be03",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "111f179bdcb0056bb8a0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "169fade038ed7ec704dc",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Stage Snapshot]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "29efe93820e5bd0be7c5",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "335a371b2b009a35a0b0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "46eadf4673a494e8ddce",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Vertical]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "611c7fb269cc2b871e96",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "716091a415259179aad0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "772e126a82c16a949307",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[AmountInEuro]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "87a81297a6e6200aa1be",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "ca118c873071ca00215d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "cb1b306641b312822007",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "d2720d400670d3150a80",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "1a8bb4af05613c2eedd4",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "736fe0e00c20b030cded",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "779e93b388466c800e1d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "8d8c4c060143b5d5d3b6",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "9b37d806ba65d9682de2",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "aad0e565090e3c217c23",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "d063441435e86a31a79c",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "7e2b10a9db665da03d90",
+      "id": "de2464efc74210ea44a0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "325bee30550ad0b09bc7",
+      "type": "tableEx",
+      "fields": [
+        "Investment Allocation[% Achievement vs 2026 PP]",
+        "Investment Allocation[PP 2026 Budget]",
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Average Deal Age Column]",
+        "Pipeline[CRM Record URL]",
+        "Pipeline[ClosedOn]",
+        "Pipeline[ClosureReason]",
+        "Pipeline[CreatedOn]",
+        "Pipeline[LastDealStatus]",
+        "Pipeline[LeadStatus]",
+        "Pipeline[Name]",
+        "Pipeline[Originator]",
+        "Pipeline[OwnerName]",
+        "Pipeline[Platform]",
+        "Pipeline[Segment]",
+        "Pipeline[Seller]",
+        "Pipeline[Stage Snapshot]",
+        "Pipeline[Terminal Snapshot]",
+        "Pipeline[Vertical]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "d8d456220b47c92b693d",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "00fc26d97c9605a16e06",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "2922efdf289444194d14",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "53ad4ecc4708c8d90087",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "643c58a5c3bc4680d4ac",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "7e9c8252b0dbb6670a62",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "830360b0847504e5addb",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "bae19b750201138ded01",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "e89d1b21478948e3ec6b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "e9920d1084b08d9a484b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "2d7173c0970030220cce",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "2ecac28a845d284e6252",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "3bab64bfd995a7d735e0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Stage Snapshot]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "41ce618304954bce091b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "4cef0ee08b5c83c5b12c",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "681916e5a129ced4b277",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "70f83734da4b6761e25e",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "713cb1400798ad4c141d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "8cc04dd3438307901602",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Vertical]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "a1a10e81824183d78103",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "b3ffcef7cc7902545d6d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "d8b2ae1e7788923d560b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[AmountInEuro]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "50591fc8bc37a1aceda9",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "5675db59b5cdd2054ad9",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "5c4f2f5b221d26a6103a",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "94fbaf213ad7c41108d1",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "a53d3b40e3501d3d7912",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "d90808a92bd4ed1c1605",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "f1a38eda691542ca34d3",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "09c76d0e80828350a239",
+      "id": "fc07e9c001beeeae1190",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "582113e63c354211d155",
+      "type": "tableEx",
+      "fields": [
+        "Investment Allocation[% Achievement vs 2026 PP]",
+        "Investment Allocation[PP 2026 Budget]",
+        "Pipeline[AmountInEuro]",
+        "Pipeline[Average Deal Age Column]",
+        "Pipeline[CRM Record URL]",
+        "Pipeline[ClosedOn]",
+        "Pipeline[ClosureReason]",
+        "Pipeline[CreatedOn]",
+        "Pipeline[LastDealStatus]",
+        "Pipeline[Name]",
+        "Pipeline[Originator]",
+        "Pipeline[OwnerName]",
+        "Pipeline[Platform]",
+        "Pipeline[Segment]",
+        "Pipeline[Seller]",
+        "Pipeline[Stage Snapshot]",
+        "Pipeline[Terminal Snapshot]",
+        "Pipeline[Vertical]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "2f947eda2f41fea7891c",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Stage Snapshot]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "3770e84cd259a788d2cf",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "39df60965c9890e9e880",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "48822961c0c62de5c70d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "6a00723989c4164074c2",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[AmountInEuro]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "6fd13387e8ce5e0cde70",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "72203fce1e0261b488ce",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "870ef57e79e07f5231e7",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "9ad766967f7a8e7ed8d5",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "b345fec2350c5e8f94a0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Vertical]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "c91df60ca0fa3409654b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "e64ae8e5d87379b1e289",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "4ba8b7e757dc2eed261a",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "514976eb7f23a51b3ff4",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "777a5bb51bb6285e5907",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "9bdd2d2fadec65d426dd",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "b5418cb2c3d2d93d05f3",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "bafa433f2398e19f044f",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "beb3a641facf7cb5a787",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "d67ec81cb629d09c6235",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "d671c4ce8f0759bbef05",
+      "id": "df1be8c2b2480cde9422",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "049608366e0e7613df29",
+      "type": "deneb7E15AEF80B9E4D4F8E12924291ECE89A",
+      "fields": [
+        "Pipeline[Pipeline Created Month Start]",
+        "Pipeline[Segment]",
+        "_CustomMeasures[Bump Chart Show]",
+        "_CustomMeasures[Pipeline Count Label No Sep]",
+        "_CustomMeasures[Pipeline Count Raw]",
+        "_CustomMeasures[Segment Rank by Created Month Count]",
+        "_CustomMeasures[Visible CY Created Month]",
+        "_DimSegment[Segment Index]",
+        "_DimSegment[Segment Name]",
+        "_DimSegment[Segment Reduced]",
+        "_DimStage[Stage (Display)]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "4a34bccb9da03a888b73",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "6bb45d968bb1c075a962",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "6be8df55c31673ec7e56",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "8840b16b04dcce6bffe7",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Vertical]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "8b7598d145e47d30ed43",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "953610b03178c4918148",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Stage Snapshot]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "9c30bc782340692905af",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[AmountInEuro]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "c489c634b0b8de372199",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "ceb441c58d3718f2d2cf",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "d248ead4d9a4338b0f0e",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "de30e5da6ce5f50b57ab",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "6c5ca88943546d09b608",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CountryName]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "739846d9d10738a4af12",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "7caed4b09f05e8b54670",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "82aff0b7e6925e63c420",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "d93a65180a2ef0105e14",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "dbdc08d0c644f11ae0b7",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "f5aa2eb263922ed5cace",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "bcdaee8021b321dbd6af",
+      "id": "f7ebb391252583d02e9d",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "8304caf3fecb695179fc",
+      "id": "554812e7b74c492433cc",
+      "type": "htmlContent443BE3AD55E043BF878BED274D3A6855",
+      "fields": [
+        "_CustomMeasures[Tooltip Stage Flow HTML €]"
+      ]
+    },
+    {
+      "page_id": "b682390c077ff03ff6d0",
+      "id": "7a3b54472088d97cb98c",
+      "type": "htmlContent443BE3AD55E043BF878BED274D3A6855",
+      "fields": [
+        "_CustomMeasures[Tooltip Stage Flow HTML]"
+      ]
+    },
+    {
+      "page_id": "cc9718354198484e5790",
+      "id": "173a9abd6190bee90d4d",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[RecordId]",
+        "Pipeline[Terminal Snapshot]"
+      ]
+    },
+    {
+      "page_id": "cc9718354198484e5790",
+      "id": "204be5d27196a338a314",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[RecordId]",
+        "Pipeline[Terminal Snapshot 2]"
+      ]
+    },
+    {
+      "page_id": "cc9718354198484e5790",
+      "id": "75500ec0a32e9674b582",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[AmountInEuro]",
+        "Pipeline[RecordId]",
+        "Pipeline[Stage Snapshot]"
+      ]
+    },
+    {
+      "page_id": "cc9718354198484e5790",
+      "id": "8d6dd2e3ee720190a367",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[RecordId]",
+        "Pipeline[Terminal Snapshot v2]"
+      ]
+    },
+    {
+      "page_id": "cc9718354198484e5790",
+      "id": "9daabfe8ddeaa40a1576",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[RecordType]"
+      ]
+    },
+    {
+      "page_id": "cc9718354198484e5790",
+      "id": "a12f242d570da7e7ce46",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[SourceSystem]"
+      ]
+    },
+    {
+      "page_id": "cc9718354198484e5790",
+      "id": "a34d873f0d6ca0c02005",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[StateName]"
+      ]
+    },
+    {
+      "page_id": "cc9718354198484e5790",
+      "id": "ac25a1a35899262205a7",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "cc9718354198484e5790",
+      "id": "c1797098a50570a17867",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "cc9718354198484e5790",
+      "id": "fdeaf2b907e01b7cec4b",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[ActiveStage]",
+        "Pipeline[LastDealStatus]",
+        "Pipeline[RecordId]",
+        "Pipeline[Stage Snapshot]",
+        "Pipeline[Terminal Snapshot 2]",
+        "Pipeline[Terminal Snapshot]"
+      ]
+    },
+    {
+      "page_id": "04b7dcd859a2acc7810b",
+      "id": "a4aceed229a3c2ba29b0",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[ActiveStage]",
+        "Pipeline[AmountInEuro]",
+        "Pipeline[LastDealStatus]",
+        "Pipeline[RecordId]",
+        "Pipeline[Stage Snapshot]",
+        "Pipeline[Terminal Snapshot]"
+      ]
+    },
+    {
+      "page_id": "04b7dcd859a2acc7810b",
+      "id": "ea0f89a9bcb42e28909e",
+      "type": "tableEx",
+      "fields": [
+        "Pipeline[Terminal Snapshot]"
+      ]
+    },
+    {
+      "page_id": "8127012a88be805b3080",
+      "id": "26b7363ca0005535c070",
+      "type": "barChart",
+      "fields": [
+        "Pipeline[SourceSystem]",
+        "_QuarterComparison[Q. Deals Current]",
+        "_QuarterComparison[Q. Leads Current]"
+      ]
+    },
+    {
+      "page_id": "8127012a88be805b3080",
+      "id": "b207fafa3bad3e6c888a",
+      "type": "clusteredColumnChart",
+      "fields": [
+        "Pipeline[Quarter Label]",
+        "_QuarterComparison[Q. Deals Count]"
+      ]
+    },
+    {
+      "page_id": "8127012a88be805b3080",
+      "id": "b57662e7d5ae1ebc4bba",
+      "type": "clusteredBarChart",
+      "fields": [
+        "_QuarterComparison[Period]",
+        "_QuarterComparison[Q. Deals Comparison]"
+      ]
+    },
+    {
+      "page_id": "8127012a88be805b3080",
+      "id": "c0747a369aedca034315",
+      "type": "clusteredBarChart",
+      "fields": [
+        "Pipeline[Segment]",
+        "_QuarterComparison[Q. Deals Current]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "116718d997177f3f8da0",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[FundName]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "2078d5d2f2c543d2d18f",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Central MD]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "4e074fa55ff302d6f638",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Originator]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "adf36e9613eddcba0590",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[LeadStatus]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "b2964714fa3097945359",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[CreatedOn]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "d30a3007eb6c37f82f8b",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Segment]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "e69f419689a53de7fc20",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[Platform]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "f12a36ae3032cb920612",
+      "type": "slicer",
+      "fields": [
+        "Pipeline[ClosedOn]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "007e7cb069648a4ca057",
+      "type": "cardVisual",
+      "fields": [
+        "LastRefresh[Last Refresh Date]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "554e24730a75e6eb3a10",
+      "type": "cardVisual",
+      "fields": [
+        "_QuarterComparison[Q. Deals Count]",
+        "_QuarterComparison[Q. Deals QoQ %]",
+        "_QuarterComparison[Q. Deals YoY %]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "70667b2a0abe0669d3f3",
+      "type": "cardVisual",
+      "fields": [
+        "_QuarterComparison[0. Leads Count]",
+        "_QuarterComparison[Q. Leads QoQ %]",
+        "_QuarterComparison[Q. Leads YoY %]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "85313b01062ebc9a792c",
+      "type": "tableEx",
+      "fields": [
+        "_QuarterComparison[Q. Deals Current]",
+        "_QuarterComparison[Q. Deals LY]",
+        "_QuarterComparison[Q. Deals QoQ %]",
+        "_QuarterComparison[Q. Leads Current]",
+        "_QuarterComparison[Q. Leads LY]",
+        "_QuarterSelector[Quarter Label]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "93c031eb5e7d50576c44",
+      "type": "tableEx",
+      "fields": [
+        "_QuarterComparison[Q. Selected Quarter End]",
+        "_QuarterComparison[Q. Selected Quarter Start]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "a1874b3e06c0d46ed768",
+      "type": "pivotTable",
+      "fields": [
+        "_DimSegment[Segment Name]",
+        "_QuarterComparison[Q. Deals Current]",
+        "_QuarterComparison[Q. Deals LY]",
+        "_QuarterComparison[Q. Deals Previous]",
+        "_QuarterComparison[Q. Deals YoY %]",
+        "_QuarterComparison[Q. Deals YoY Change]"
+      ]
+    },
+    {
+      "page_id": "a82e050b32c4d6dbe6bd",
+      "id": "f91ba366b03ca802cca7",
+      "type": "pivotTable",
+      "fields": [
+        "_DimSegment[Segment Name]",
+        "_QuarterComparison[Q. Leads Current]",
+        "_QuarterComparison[Q. Leads LY]",
+        "_QuarterComparison[Q. Leads Previous]",
+        "_QuarterComparison[Q. Leads YoY %]",
+        "_QuarterComparison[Q. Leads YoY Change]"
+      ]
+    },
+    {
+      "page_id": "74c4e9b59cad4090e9bf",
+      "id": "07e4e4a15fba2b762ec5",
+      "type": "pivotTable",
+      "fields": [
+        "Pipeline[Platform]",
+        "_QuarterComparison[Q. Deal Share %]",
+        "_QuarterComparison[Q. Deal Share Previous %]",
+        "_QuarterComparison[Q. Deal Share QoQ pp]",
+        "_QuarterComparison[Q. Deals Current]",
+        "_QuarterComparison[Q. Deals Previous]",
+        "_QuarterComparison[Q. Leads Current]",
+        "_QuarterComparison[Q. Leads Previous]",
+        "_QuarterComparison[Q. Total Intake Previous]",
+        "_QuarterComparison[Q. Total Intake]"
+      ]
+    },
+    {
+      "page_id": "74c4e9b59cad4090e9bf",
+      "id": "243f2f79e3fe4f909bf8",
+      "type": "cardVisual",
+      "fields": [
+        "_QuarterComparison[Q. Comparison Title]"
+      ]
+    },
+    {
+      "page_id": "74c4e9b59cad4090e9bf",
+      "id": "e016995efe3ec0c38fd5",
+      "type": "cardVisual",
+      "fields": [
+        "_QuarterComparison[Q. Comparison Note]"
+      ]
+    }
+  ],
+  "guardrails": [
+    "Current: CreatedOn no trimestre selecionado e dados disponiveis na carga.",
+    "Previous e LY: trimestres completos, sem ajuste pelos dias decorridos.",
+    "O trimestre predefinido depende do modelo e dos dados, nunca da data do servidor.",
+    "Filtro global oculto Pipeline[Show Row - Closed This Year Or Blank] IN {1}: preservar no calculo de origem.",
+    "Preservar Terminal Snapshot; nao substituir automaticamente por Terminal Snapshot v2.",
+    "Filtros, NoFilter, bookmarks e RLS exigem homologacao individual; nao sao inferidos pela interface."
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "snapshot_id": "SUBSTITUIR_ID_UNICO",
+  "release_id": "SUBSTITUIR_RELEASE_APROVADA",
+  "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+  "page_id": "e9fb9076fe9caa4e4077",
+  "page_title": "Quarter Performance",
+  "quarter": "Q4-2026",
+  "context_id": "SUBSTITUIR_CONTEXTO",
+  "context_label": "Contexto a homologar",
+  "is_default": true,
+  "as_of": "2026-10-13T08:00:00Z",
+  "filter_context": {
+    "TODO": "Descrever o contexto completo de relatorio, pagina, visuais e acesso."
+  },
+  "certification": {
+    "status": "PENDING",
+    "scope": "values_in_fixed_context",
+    "value_parity": false,
+    "filter_context_parity": false,
+    "access_policy_parity": false,
+    "presentation_reviewed": false,
+    "semantic_version": "",
+    "security_version": "",
+    "approved_by": "",
+    "evidence_ref": ""
+  },
+  "cards": [
+    {
+      "id": "qoq",
+      "source_visual_id": "22bb00a877b1667e72b5",
+      "measure": "_QuarterComparison[Q. Deals QoQ %]",
+      "label": "Deals QoQ %",
+      "value": null,
+      "formatted_value": ""
+    },
+    {
+      "id": "yoy",
+      "source_visual_id": "22bb00a877b1667e72b5",
+      "measure": "_QuarterComparison[Q. Deals YoY %]",
+      "label": "Deals YoY %",
+      "value": null,
+      "formatted_value": ""
+    },
+    {
+      "id": "share",
+      "source_visual_id": "22bb00a877b1667e72b5",
+      "measure": "_QuarterComparison[Q. Deal Share %]",
+      "label": "Deal Share %",
+      "value": null,
+      "formatted_value": ""
+    }
+  ],
+  "charts": [],
+  "tables": [],
+  "notes": [
+    "MODELO PENDING. Nao preencher com valores ficticios ou aprovar sem reconciliacao com o Power BI."
+  ],
+  "authorized_viewer_key": "SUBSTITUIR_NO_MODO_REFERENCE"
+}

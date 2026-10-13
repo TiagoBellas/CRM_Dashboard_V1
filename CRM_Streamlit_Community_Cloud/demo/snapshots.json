@@ -1,0 +1,2489 @@
+[
+  {
+    "schema_version": 1,
+    "snapshot_id": "demo-Q2-2026-all",
+    "release_id": "DEMO-ONLY",
+    "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+    "page_id": "e9fb9076fe9caa4e4077",
+    "page_title": "Quarter Performance",
+    "quarter": "Q2-2026",
+    "context_id": "all",
+    "context_label": "Todos (DEMO)",
+    "is_default": false,
+    "as_of": "2026-10-13T08:00:00Z",
+    "filter_context": {
+      "_QuarterSelector[Quarter Label]": [
+        "Q2-2026"
+      ],
+      "Pipeline[Platform]": [],
+      "other_filters": "Fixture sintetica; nao e um contexto recuperado do PBIX.",
+      "report_filter": "Pipeline[Show Row - Closed This Year Or Blank] IN {1}: nao avaliado na demo."
+    },
+    "certification": {
+      "status": "DEMO",
+      "scope": "values_in_fixed_context",
+      "value_parity": false,
+      "filter_context_parity": false,
+      "access_policy_parity": false,
+      "presentation_reviewed": false
+    },
+    "cards": [
+      {
+        "id": "qoq",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals QoQ %]",
+        "label": "Deals QoQ %",
+        "value": 0.125,
+        "formatted_value": "+12.5%"
+      },
+      {
+        "id": "yoy",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals YoY %]",
+        "label": "Deals YoY %",
+        "value": 0.8,
+        "formatted_value": "+80.0%"
+      },
+      {
+        "id": "share",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deal Share %]",
+        "label": "Deal Share %",
+        "value": 0.25,
+        "formatted_value": "25.0%"
+      }
+    ],
+    "charts": [
+      {
+        "id": "quarter_trend",
+        "source_visual_id": "3d3aa269bdf829ab3228",
+        "title": "Deals por trimestre | Current e QoQ",
+        "x_label": "Trimestre",
+        "y_label": "Deals Current",
+        "y2_label": "QoQ %",
+        "y_format": "number",
+        "y2_format": "percent",
+        "barmode": "group",
+        "traces": [
+          {
+            "name": "Deals Current",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              200,
+              240,
+              300,
+              320,
+              360,
+              400,
+              60
+            ],
+            "display_y": [
+              "200",
+              "240",
+              "300",
+              "320",
+              "360",
+              "400",
+              "60"
+            ]
+          },
+          {
+            "name": "Deals QoQ %",
+            "kind": "line",
+            "axis": "y2",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.2,
+              0.25,
+              0.06666666666666667,
+              0.125,
+              0.1111111111111111,
+              -0.85
+            ],
+            "display_y": [
+              "+25.0%",
+              "+20.0%",
+              "+25.0%",
+              "+6.7%",
+              "+12.5%",
+              "+11.1%",
+              "-85.0%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "record_mix",
+        "source_visual_id": "afcad4e30e1c469b2af6",
+        "title": "Composicao por RecordType | ilustracao sintetica",
+        "x_label": "Trimestre",
+        "y_label": "Participacao",
+        "y_format": "percent",
+        "barmode": "stack",
+        "traces": [
+          {
+            "name": "Deals (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "display_y": [
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%"
+            ]
+          },
+          {
+            "name": "Outros (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "display_y": [
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%"
+            ]
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "platform_comparison",
+        "source_visual_id": "d10c1346ba3734f7921a",
+        "title": "Comparacao por Platform",
+        "columns": [
+          "Platform",
+          "Current | Q2-2026",
+          "Previous | Q1-2026",
+          "LY | Q2-2025"
+        ],
+        "rows": [
+          [
+            "Plataforma Alfa",
+            "216",
+            "192",
+            "120"
+          ],
+          [
+            "Plataforma Beta",
+            "144",
+            "128",
+            "80"
+          ],
+          [
+            "Total",
+            "360",
+            "320",
+            "200"
+          ]
+        ]
+      },
+      {
+        "id": "originator_comparison",
+        "source_visual_id": "8595ad90d8fc50e062e1",
+        "title": "Comparacao por Originator",
+        "columns": [
+          "Originator",
+          "Current | Q2-2026",
+          "Previous | Q1-2026",
+          "LY | Q2-2025"
+        ],
+        "rows": [
+          [
+            "Originador A",
+            "180",
+            "160",
+            "100"
+          ],
+          [
+            "Originador B",
+            "180",
+            "160",
+            "100"
+          ],
+          [
+            "Total",
+            "360",
+            "320",
+            "200"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Dados 100% sinteticos, criados apenas para testar navegacao e renderizacao.",
+      "Nenhum numero foi extraido de Pipeline ou calculado com o DAX original.",
+      "A fixture contem uma serie historica independente do trimestre selecionado; nao comprova as interacoes NoFilter.",
+      "Em producao, totais, BLANK, formatacao e comparacoes devem vir dos resultados homologados."
+    ]
+  },
+  {
+    "schema_version": 1,
+    "snapshot_id": "demo-Q2-2026-alpha",
+    "release_id": "DEMO-ONLY",
+    "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+    "page_id": "e9fb9076fe9caa4e4077",
+    "page_title": "Quarter Performance",
+    "quarter": "Q2-2026",
+    "context_id": "alpha",
+    "context_label": "Plataforma Alfa (DEMO)",
+    "is_default": false,
+    "as_of": "2026-10-13T08:00:00Z",
+    "filter_context": {
+      "_QuarterSelector[Quarter Label]": [
+        "Q2-2026"
+      ],
+      "Pipeline[Platform]": [
+        "Plataforma Alfa"
+      ],
+      "other_filters": "Fixture sintetica; nao e um contexto recuperado do PBIX.",
+      "report_filter": "Pipeline[Show Row - Closed This Year Or Blank] IN {1}: nao avaliado na demo."
+    },
+    "certification": {
+      "status": "DEMO",
+      "scope": "values_in_fixed_context",
+      "value_parity": false,
+      "filter_context_parity": false,
+      "access_policy_parity": false,
+      "presentation_reviewed": false
+    },
+    "cards": [
+      {
+        "id": "qoq",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals QoQ %]",
+        "label": "Deals QoQ %",
+        "value": 0.125,
+        "formatted_value": "+12.5%"
+      },
+      {
+        "id": "yoy",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals YoY %]",
+        "label": "Deals YoY %",
+        "value": 0.8,
+        "formatted_value": "+80.0%"
+      },
+      {
+        "id": "share",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deal Share %]",
+        "label": "Deal Share %",
+        "value": 0.25,
+        "formatted_value": "25.0%"
+      }
+    ],
+    "charts": [
+      {
+        "id": "quarter_trend",
+        "source_visual_id": "3d3aa269bdf829ab3228",
+        "title": "Deals por trimestre | Current e QoQ",
+        "x_label": "Trimestre",
+        "y_label": "Deals Current",
+        "y2_label": "QoQ %",
+        "y_format": "number",
+        "y2_format": "percent",
+        "barmode": "group",
+        "traces": [
+          {
+            "name": "Deals Current",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              120,
+              144,
+              180,
+              192,
+              216,
+              240,
+              36
+            ],
+            "display_y": [
+              "120",
+              "144",
+              "180",
+              "192",
+              "216",
+              "240",
+              "36"
+            ]
+          },
+          {
+            "name": "Deals QoQ %",
+            "kind": "line",
+            "axis": "y2",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.2,
+              0.25,
+              0.06666666666666667,
+              0.125,
+              0.1111111111111111,
+              -0.85
+            ],
+            "display_y": [
+              "+25.0%",
+              "+20.0%",
+              "+25.0%",
+              "+6.7%",
+              "+12.5%",
+              "+11.1%",
+              "-85.0%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "record_mix",
+        "source_visual_id": "afcad4e30e1c469b2af6",
+        "title": "Composicao por RecordType | ilustracao sintetica",
+        "x_label": "Trimestre",
+        "y_label": "Participacao",
+        "y_format": "percent",
+        "barmode": "stack",
+        "traces": [
+          {
+            "name": "Deals (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "display_y": [
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%"
+            ]
+          },
+          {
+            "name": "Outros (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "display_y": [
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%"
+            ]
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "platform_comparison",
+        "source_visual_id": "d10c1346ba3734f7921a",
+        "title": "Comparacao por Platform",
+        "columns": [
+          "Platform",
+          "Current | Q2-2026",
+          "Previous | Q1-2026",
+          "LY | Q2-2025"
+        ],
+        "rows": [
+          [
+            "Plataforma Alfa",
+            "216",
+            "192",
+            "120"
+          ],
+          [
+            "Total",
+            "216",
+            "192",
+            "120"
+          ]
+        ]
+      },
+      {
+        "id": "originator_comparison",
+        "source_visual_id": "8595ad90d8fc50e062e1",
+        "title": "Comparacao por Originator",
+        "columns": [
+          "Originator",
+          "Current | Q2-2026",
+          "Previous | Q1-2026",
+          "LY | Q2-2025"
+        ],
+        "rows": [
+          [
+            "Originador A",
+            "108",
+            "96",
+            "60"
+          ],
+          [
+            "Originador B",
+            "108",
+            "96",
+            "60"
+          ],
+          [
+            "Total",
+            "216",
+            "192",
+            "120"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Dados 100% sinteticos, criados apenas para testar navegacao e renderizacao.",
+      "Nenhum numero foi extraido de Pipeline ou calculado com o DAX original.",
+      "A fixture contem uma serie historica independente do trimestre selecionado; nao comprova as interacoes NoFilter.",
+      "Em producao, totais, BLANK, formatacao e comparacoes devem vir dos resultados homologados."
+    ]
+  },
+  {
+    "schema_version": 1,
+    "snapshot_id": "demo-Q2-2026-beta",
+    "release_id": "DEMO-ONLY",
+    "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+    "page_id": "e9fb9076fe9caa4e4077",
+    "page_title": "Quarter Performance",
+    "quarter": "Q2-2026",
+    "context_id": "beta",
+    "context_label": "Plataforma Beta (DEMO)",
+    "is_default": false,
+    "as_of": "2026-10-13T08:00:00Z",
+    "filter_context": {
+      "_QuarterSelector[Quarter Label]": [
+        "Q2-2026"
+      ],
+      "Pipeline[Platform]": [
+        "Plataforma Beta"
+      ],
+      "other_filters": "Fixture sintetica; nao e um contexto recuperado do PBIX.",
+      "report_filter": "Pipeline[Show Row - Closed This Year Or Blank] IN {1}: nao avaliado na demo."
+    },
+    "certification": {
+      "status": "DEMO",
+      "scope": "values_in_fixed_context",
+      "value_parity": false,
+      "filter_context_parity": false,
+      "access_policy_parity": false,
+      "presentation_reviewed": false
+    },
+    "cards": [
+      {
+        "id": "qoq",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals QoQ %]",
+        "label": "Deals QoQ %",
+        "value": 0.125,
+        "formatted_value": "+12.5%"
+      },
+      {
+        "id": "yoy",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals YoY %]",
+        "label": "Deals YoY %",
+        "value": 0.8,
+        "formatted_value": "+80.0%"
+      },
+      {
+        "id": "share",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deal Share %]",
+        "label": "Deal Share %",
+        "value": 0.25,
+        "formatted_value": "25.0%"
+      }
+    ],
+    "charts": [
+      {
+        "id": "quarter_trend",
+        "source_visual_id": "3d3aa269bdf829ab3228",
+        "title": "Deals por trimestre | Current e QoQ",
+        "x_label": "Trimestre",
+        "y_label": "Deals Current",
+        "y2_label": "QoQ %",
+        "y_format": "number",
+        "y2_format": "percent",
+        "barmode": "group",
+        "traces": [
+          {
+            "name": "Deals Current",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              80,
+              96,
+              120,
+              128,
+              144,
+              160,
+              24
+            ],
+            "display_y": [
+              "80",
+              "96",
+              "120",
+              "128",
+              "144",
+              "160",
+              "24"
+            ]
+          },
+          {
+            "name": "Deals QoQ %",
+            "kind": "line",
+            "axis": "y2",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.2,
+              0.25,
+              0.06666666666666667,
+              0.125,
+              0.1111111111111111,
+              -0.85
+            ],
+            "display_y": [
+              "+25.0%",
+              "+20.0%",
+              "+25.0%",
+              "+6.7%",
+              "+12.5%",
+              "+11.1%",
+              "-85.0%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "record_mix",
+        "source_visual_id": "afcad4e30e1c469b2af6",
+        "title": "Composicao por RecordType | ilustracao sintetica",
+        "x_label": "Trimestre",
+        "y_label": "Participacao",
+        "y_format": "percent",
+        "barmode": "stack",
+        "traces": [
+          {
+            "name": "Deals (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "display_y": [
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%"
+            ]
+          },
+          {
+            "name": "Outros (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "display_y": [
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%"
+            ]
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "platform_comparison",
+        "source_visual_id": "d10c1346ba3734f7921a",
+        "title": "Comparacao por Platform",
+        "columns": [
+          "Platform",
+          "Current | Q2-2026",
+          "Previous | Q1-2026",
+          "LY | Q2-2025"
+        ],
+        "rows": [
+          [
+            "Plataforma Beta",
+            "144",
+            "128",
+            "80"
+          ],
+          [
+            "Total",
+            "144",
+            "128",
+            "80"
+          ]
+        ]
+      },
+      {
+        "id": "originator_comparison",
+        "source_visual_id": "8595ad90d8fc50e062e1",
+        "title": "Comparacao por Originator",
+        "columns": [
+          "Originator",
+          "Current | Q2-2026",
+          "Previous | Q1-2026",
+          "LY | Q2-2025"
+        ],
+        "rows": [
+          [
+            "Originador A",
+            "72",
+            "64",
+            "40"
+          ],
+          [
+            "Originador B",
+            "72",
+            "64",
+            "40"
+          ],
+          [
+            "Total",
+            "144",
+            "128",
+            "80"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Dados 100% sinteticos, criados apenas para testar navegacao e renderizacao.",
+      "Nenhum numero foi extraido de Pipeline ou calculado com o DAX original.",
+      "A fixture contem uma serie historica independente do trimestre selecionado; nao comprova as interacoes NoFilter.",
+      "Em producao, totais, BLANK, formatacao e comparacoes devem vir dos resultados homologados."
+    ]
+  },
+  {
+    "schema_version": 1,
+    "snapshot_id": "demo-Q3-2026-all",
+    "release_id": "DEMO-ONLY",
+    "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+    "page_id": "e9fb9076fe9caa4e4077",
+    "page_title": "Quarter Performance",
+    "quarter": "Q3-2026",
+    "context_id": "all",
+    "context_label": "Todos (DEMO)",
+    "is_default": false,
+    "as_of": "2026-10-13T08:00:00Z",
+    "filter_context": {
+      "_QuarterSelector[Quarter Label]": [
+        "Q3-2026"
+      ],
+      "Pipeline[Platform]": [],
+      "other_filters": "Fixture sintetica; nao e um contexto recuperado do PBIX.",
+      "report_filter": "Pipeline[Show Row - Closed This Year Or Blank] IN {1}: nao avaliado na demo."
+    },
+    "certification": {
+      "status": "DEMO",
+      "scope": "values_in_fixed_context",
+      "value_parity": false,
+      "filter_context_parity": false,
+      "access_policy_parity": false,
+      "presentation_reviewed": false
+    },
+    "cards": [
+      {
+        "id": "qoq",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals QoQ %]",
+        "label": "Deals QoQ %",
+        "value": 0.1111111111111111,
+        "formatted_value": "+11.1%"
+      },
+      {
+        "id": "yoy",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals YoY %]",
+        "label": "Deals YoY %",
+        "value": 0.6666666666666666,
+        "formatted_value": "+66.7%"
+      },
+      {
+        "id": "share",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deal Share %]",
+        "label": "Deal Share %",
+        "value": 0.25,
+        "formatted_value": "25.0%"
+      }
+    ],
+    "charts": [
+      {
+        "id": "quarter_trend",
+        "source_visual_id": "3d3aa269bdf829ab3228",
+        "title": "Deals por trimestre | Current e QoQ",
+        "x_label": "Trimestre",
+        "y_label": "Deals Current",
+        "y2_label": "QoQ %",
+        "y_format": "number",
+        "y2_format": "percent",
+        "barmode": "group",
+        "traces": [
+          {
+            "name": "Deals Current",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              200,
+              240,
+              300,
+              320,
+              360,
+              400,
+              60
+            ],
+            "display_y": [
+              "200",
+              "240",
+              "300",
+              "320",
+              "360",
+              "400",
+              "60"
+            ]
+          },
+          {
+            "name": "Deals QoQ %",
+            "kind": "line",
+            "axis": "y2",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.2,
+              0.25,
+              0.06666666666666667,
+              0.125,
+              0.1111111111111111,
+              -0.85
+            ],
+            "display_y": [
+              "+25.0%",
+              "+20.0%",
+              "+25.0%",
+              "+6.7%",
+              "+12.5%",
+              "+11.1%",
+              "-85.0%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "record_mix",
+        "source_visual_id": "afcad4e30e1c469b2af6",
+        "title": "Composicao por RecordType | ilustracao sintetica",
+        "x_label": "Trimestre",
+        "y_label": "Participacao",
+        "y_format": "percent",
+        "barmode": "stack",
+        "traces": [
+          {
+            "name": "Deals (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "display_y": [
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%"
+            ]
+          },
+          {
+            "name": "Outros (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "display_y": [
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%"
+            ]
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "platform_comparison",
+        "source_visual_id": "d10c1346ba3734f7921a",
+        "title": "Comparacao por Platform",
+        "columns": [
+          "Platform",
+          "Current | Q3-2026",
+          "Previous | Q2-2026",
+          "LY | Q3-2025"
+        ],
+        "rows": [
+          [
+            "Plataforma Alfa",
+            "240",
+            "216",
+            "144"
+          ],
+          [
+            "Plataforma Beta",
+            "160",
+            "144",
+            "96"
+          ],
+          [
+            "Total",
+            "400",
+            "360",
+            "240"
+          ]
+        ]
+      },
+      {
+        "id": "originator_comparison",
+        "source_visual_id": "8595ad90d8fc50e062e1",
+        "title": "Comparacao por Originator",
+        "columns": [
+          "Originator",
+          "Current | Q3-2026",
+          "Previous | Q2-2026",
+          "LY | Q3-2025"
+        ],
+        "rows": [
+          [
+            "Originador A",
+            "200",
+            "180",
+            "120"
+          ],
+          [
+            "Originador B",
+            "200",
+            "180",
+            "120"
+          ],
+          [
+            "Total",
+            "400",
+            "360",
+            "240"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Dados 100% sinteticos, criados apenas para testar navegacao e renderizacao.",
+      "Nenhum numero foi extraido de Pipeline ou calculado com o DAX original.",
+      "A fixture contem uma serie historica independente do trimestre selecionado; nao comprova as interacoes NoFilter.",
+      "Em producao, totais, BLANK, formatacao e comparacoes devem vir dos resultados homologados."
+    ]
+  },
+  {
+    "schema_version": 1,
+    "snapshot_id": "demo-Q3-2026-alpha",
+    "release_id": "DEMO-ONLY",
+    "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+    "page_id": "e9fb9076fe9caa4e4077",
+    "page_title": "Quarter Performance",
+    "quarter": "Q3-2026",
+    "context_id": "alpha",
+    "context_label": "Plataforma Alfa (DEMO)",
+    "is_default": false,
+    "as_of": "2026-10-13T08:00:00Z",
+    "filter_context": {
+      "_QuarterSelector[Quarter Label]": [
+        "Q3-2026"
+      ],
+      "Pipeline[Platform]": [
+        "Plataforma Alfa"
+      ],
+      "other_filters": "Fixture sintetica; nao e um contexto recuperado do PBIX.",
+      "report_filter": "Pipeline[Show Row - Closed This Year Or Blank] IN {1}: nao avaliado na demo."
+    },
+    "certification": {
+      "status": "DEMO",
+      "scope": "values_in_fixed_context",
+      "value_parity": false,
+      "filter_context_parity": false,
+      "access_policy_parity": false,
+      "presentation_reviewed": false
+    },
+    "cards": [
+      {
+        "id": "qoq",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals QoQ %]",
+        "label": "Deals QoQ %",
+        "value": 0.1111111111111111,
+        "formatted_value": "+11.1%"
+      },
+      {
+        "id": "yoy",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals YoY %]",
+        "label": "Deals YoY %",
+        "value": 0.6666666666666666,
+        "formatted_value": "+66.7%"
+      },
+      {
+        "id": "share",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deal Share %]",
+        "label": "Deal Share %",
+        "value": 0.25,
+        "formatted_value": "25.0%"
+      }
+    ],
+    "charts": [
+      {
+        "id": "quarter_trend",
+        "source_visual_id": "3d3aa269bdf829ab3228",
+        "title": "Deals por trimestre | Current e QoQ",
+        "x_label": "Trimestre",
+        "y_label": "Deals Current",
+        "y2_label": "QoQ %",
+        "y_format": "number",
+        "y2_format": "percent",
+        "barmode": "group",
+        "traces": [
+          {
+            "name": "Deals Current",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              120,
+              144,
+              180,
+              192,
+              216,
+              240,
+              36
+            ],
+            "display_y": [
+              "120",
+              "144",
+              "180",
+              "192",
+              "216",
+              "240",
+              "36"
+            ]
+          },
+          {
+            "name": "Deals QoQ %",
+            "kind": "line",
+            "axis": "y2",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.2,
+              0.25,
+              0.06666666666666667,
+              0.125,
+              0.1111111111111111,
+              -0.85
+            ],
+            "display_y": [
+              "+25.0%",
+              "+20.0%",
+              "+25.0%",
+              "+6.7%",
+              "+12.5%",
+              "+11.1%",
+              "-85.0%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "record_mix",
+        "source_visual_id": "afcad4e30e1c469b2af6",
+        "title": "Composicao por RecordType | ilustracao sintetica",
+        "x_label": "Trimestre",
+        "y_label": "Participacao",
+        "y_format": "percent",
+        "barmode": "stack",
+        "traces": [
+          {
+            "name": "Deals (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "display_y": [
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%"
+            ]
+          },
+          {
+            "name": "Outros (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "display_y": [
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%"
+            ]
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "platform_comparison",
+        "source_visual_id": "d10c1346ba3734f7921a",
+        "title": "Comparacao por Platform",
+        "columns": [
+          "Platform",
+          "Current | Q3-2026",
+          "Previous | Q2-2026",
+          "LY | Q3-2025"
+        ],
+        "rows": [
+          [
+            "Plataforma Alfa",
+            "240",
+            "216",
+            "144"
+          ],
+          [
+            "Total",
+            "240",
+            "216",
+            "144"
+          ]
+        ]
+      },
+      {
+        "id": "originator_comparison",
+        "source_visual_id": "8595ad90d8fc50e062e1",
+        "title": "Comparacao por Originator",
+        "columns": [
+          "Originator",
+          "Current | Q3-2026",
+          "Previous | Q2-2026",
+          "LY | Q3-2025"
+        ],
+        "rows": [
+          [
+            "Originador A",
+            "120",
+            "108",
+            "72"
+          ],
+          [
+            "Originador B",
+            "120",
+            "108",
+            "72"
+          ],
+          [
+            "Total",
+            "240",
+            "216",
+            "144"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Dados 100% sinteticos, criados apenas para testar navegacao e renderizacao.",
+      "Nenhum numero foi extraido de Pipeline ou calculado com o DAX original.",
+      "A fixture contem uma serie historica independente do trimestre selecionado; nao comprova as interacoes NoFilter.",
+      "Em producao, totais, BLANK, formatacao e comparacoes devem vir dos resultados homologados."
+    ]
+  },
+  {
+    "schema_version": 1,
+    "snapshot_id": "demo-Q3-2026-beta",
+    "release_id": "DEMO-ONLY",
+    "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+    "page_id": "e9fb9076fe9caa4e4077",
+    "page_title": "Quarter Performance",
+    "quarter": "Q3-2026",
+    "context_id": "beta",
+    "context_label": "Plataforma Beta (DEMO)",
+    "is_default": false,
+    "as_of": "2026-10-13T08:00:00Z",
+    "filter_context": {
+      "_QuarterSelector[Quarter Label]": [
+        "Q3-2026"
+      ],
+      "Pipeline[Platform]": [
+        "Plataforma Beta"
+      ],
+      "other_filters": "Fixture sintetica; nao e um contexto recuperado do PBIX.",
+      "report_filter": "Pipeline[Show Row - Closed This Year Or Blank] IN {1}: nao avaliado na demo."
+    },
+    "certification": {
+      "status": "DEMO",
+      "scope": "values_in_fixed_context",
+      "value_parity": false,
+      "filter_context_parity": false,
+      "access_policy_parity": false,
+      "presentation_reviewed": false
+    },
+    "cards": [
+      {
+        "id": "qoq",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals QoQ %]",
+        "label": "Deals QoQ %",
+        "value": 0.1111111111111111,
+        "formatted_value": "+11.1%"
+      },
+      {
+        "id": "yoy",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals YoY %]",
+        "label": "Deals YoY %",
+        "value": 0.6666666666666666,
+        "formatted_value": "+66.7%"
+      },
+      {
+        "id": "share",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deal Share %]",
+        "label": "Deal Share %",
+        "value": 0.25,
+        "formatted_value": "25.0%"
+      }
+    ],
+    "charts": [
+      {
+        "id": "quarter_trend",
+        "source_visual_id": "3d3aa269bdf829ab3228",
+        "title": "Deals por trimestre | Current e QoQ",
+        "x_label": "Trimestre",
+        "y_label": "Deals Current",
+        "y2_label": "QoQ %",
+        "y_format": "number",
+        "y2_format": "percent",
+        "barmode": "group",
+        "traces": [
+          {
+            "name": "Deals Current",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              80,
+              96,
+              120,
+              128,
+              144,
+              160,
+              24
+            ],
+            "display_y": [
+              "80",
+              "96",
+              "120",
+              "128",
+              "144",
+              "160",
+              "24"
+            ]
+          },
+          {
+            "name": "Deals QoQ %",
+            "kind": "line",
+            "axis": "y2",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.2,
+              0.25,
+              0.06666666666666667,
+              0.125,
+              0.1111111111111111,
+              -0.85
+            ],
+            "display_y": [
+              "+25.0%",
+              "+20.0%",
+              "+25.0%",
+              "+6.7%",
+              "+12.5%",
+              "+11.1%",
+              "-85.0%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "record_mix",
+        "source_visual_id": "afcad4e30e1c469b2af6",
+        "title": "Composicao por RecordType | ilustracao sintetica",
+        "x_label": "Trimestre",
+        "y_label": "Participacao",
+        "y_format": "percent",
+        "barmode": "stack",
+        "traces": [
+          {
+            "name": "Deals (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "display_y": [
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%"
+            ]
+          },
+          {
+            "name": "Outros (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "display_y": [
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%"
+            ]
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "platform_comparison",
+        "source_visual_id": "d10c1346ba3734f7921a",
+        "title": "Comparacao por Platform",
+        "columns": [
+          "Platform",
+          "Current | Q3-2026",
+          "Previous | Q2-2026",
+          "LY | Q3-2025"
+        ],
+        "rows": [
+          [
+            "Plataforma Beta",
+            "160",
+            "144",
+            "96"
+          ],
+          [
+            "Total",
+            "160",
+            "144",
+            "96"
+          ]
+        ]
+      },
+      {
+        "id": "originator_comparison",
+        "source_visual_id": "8595ad90d8fc50e062e1",
+        "title": "Comparacao por Originator",
+        "columns": [
+          "Originator",
+          "Current | Q3-2026",
+          "Previous | Q2-2026",
+          "LY | Q3-2025"
+        ],
+        "rows": [
+          [
+            "Originador A",
+            "80",
+            "72",
+            "48"
+          ],
+          [
+            "Originador B",
+            "80",
+            "72",
+            "48"
+          ],
+          [
+            "Total",
+            "160",
+            "144",
+            "96"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Dados 100% sinteticos, criados apenas para testar navegacao e renderizacao.",
+      "Nenhum numero foi extraido de Pipeline ou calculado com o DAX original.",
+      "A fixture contem uma serie historica independente do trimestre selecionado; nao comprova as interacoes NoFilter.",
+      "Em producao, totais, BLANK, formatacao e comparacoes devem vir dos resultados homologados."
+    ]
+  },
+  {
+    "schema_version": 1,
+    "snapshot_id": "demo-Q4-2026-all",
+    "release_id": "DEMO-ONLY",
+    "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+    "page_id": "e9fb9076fe9caa4e4077",
+    "page_title": "Quarter Performance",
+    "quarter": "Q4-2026",
+    "context_id": "all",
+    "context_label": "Todos (DEMO)",
+    "is_default": true,
+    "as_of": "2026-10-13T08:00:00Z",
+    "filter_context": {
+      "_QuarterSelector[Quarter Label]": [
+        "Q4-2026"
+      ],
+      "Pipeline[Platform]": [],
+      "other_filters": "Fixture sintetica; nao e um contexto recuperado do PBIX.",
+      "report_filter": "Pipeline[Show Row - Closed This Year Or Blank] IN {1}: nao avaliado na demo."
+    },
+    "certification": {
+      "status": "DEMO",
+      "scope": "values_in_fixed_context",
+      "value_parity": false,
+      "filter_context_parity": false,
+      "access_policy_parity": false,
+      "presentation_reviewed": false
+    },
+    "cards": [
+      {
+        "id": "qoq",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals QoQ %]",
+        "label": "Deals QoQ %",
+        "value": -0.85,
+        "formatted_value": "-85.0%"
+      },
+      {
+        "id": "yoy",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals YoY %]",
+        "label": "Deals YoY %",
+        "value": -0.8,
+        "formatted_value": "-80.0%"
+      },
+      {
+        "id": "share",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deal Share %]",
+        "label": "Deal Share %",
+        "value": 0.25,
+        "formatted_value": "25.0%"
+      }
+    ],
+    "charts": [
+      {
+        "id": "quarter_trend",
+        "source_visual_id": "3d3aa269bdf829ab3228",
+        "title": "Deals por trimestre | Current e QoQ",
+        "x_label": "Trimestre",
+        "y_label": "Deals Current",
+        "y2_label": "QoQ %",
+        "y_format": "number",
+        "y2_format": "percent",
+        "barmode": "group",
+        "traces": [
+          {
+            "name": "Deals Current",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              200,
+              240,
+              300,
+              320,
+              360,
+              400,
+              60
+            ],
+            "display_y": [
+              "200",
+              "240",
+              "300",
+              "320",
+              "360",
+              "400",
+              "60"
+            ]
+          },
+          {
+            "name": "Deals QoQ %",
+            "kind": "line",
+            "axis": "y2",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.2,
+              0.25,
+              0.06666666666666667,
+              0.125,
+              0.1111111111111111,
+              -0.85
+            ],
+            "display_y": [
+              "+25.0%",
+              "+20.0%",
+              "+25.0%",
+              "+6.7%",
+              "+12.5%",
+              "+11.1%",
+              "-85.0%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "record_mix",
+        "source_visual_id": "afcad4e30e1c469b2af6",
+        "title": "Composicao por RecordType | ilustracao sintetica",
+        "x_label": "Trimestre",
+        "y_label": "Participacao",
+        "y_format": "percent",
+        "barmode": "stack",
+        "traces": [
+          {
+            "name": "Deals (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "display_y": [
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%"
+            ]
+          },
+          {
+            "name": "Outros (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "display_y": [
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%"
+            ]
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "platform_comparison",
+        "source_visual_id": "d10c1346ba3734f7921a",
+        "title": "Comparacao por Platform",
+        "columns": [
+          "Platform",
+          "Current | Q4-2026",
+          "Previous | Q3-2026",
+          "LY | Q4-2025"
+        ],
+        "rows": [
+          [
+            "Plataforma Alfa",
+            "36",
+            "240",
+            "180"
+          ],
+          [
+            "Plataforma Beta",
+            "24",
+            "160",
+            "120"
+          ],
+          [
+            "Total",
+            "60",
+            "400",
+            "300"
+          ]
+        ]
+      },
+      {
+        "id": "originator_comparison",
+        "source_visual_id": "8595ad90d8fc50e062e1",
+        "title": "Comparacao por Originator",
+        "columns": [
+          "Originator",
+          "Current | Q4-2026",
+          "Previous | Q3-2026",
+          "LY | Q4-2025"
+        ],
+        "rows": [
+          [
+            "Originador A",
+            "30",
+            "200",
+            "150"
+          ],
+          [
+            "Originador B",
+            "30",
+            "200",
+            "150"
+          ],
+          [
+            "Total",
+            "60",
+            "400",
+            "300"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Dados 100% sinteticos, criados apenas para testar navegacao e renderizacao.",
+      "Nenhum numero foi extraido de Pipeline ou calculado com o DAX original.",
+      "A fixture contem uma serie historica independente do trimestre selecionado; nao comprova as interacoes NoFilter.",
+      "Em producao, totais, BLANK, formatacao e comparacoes devem vir dos resultados homologados."
+    ]
+  },
+  {
+    "schema_version": 1,
+    "snapshot_id": "demo-Q4-2026-alpha",
+    "release_id": "DEMO-ONLY",
+    "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+    "page_id": "e9fb9076fe9caa4e4077",
+    "page_title": "Quarter Performance",
+    "quarter": "Q4-2026",
+    "context_id": "alpha",
+    "context_label": "Plataforma Alfa (DEMO)",
+    "is_default": false,
+    "as_of": "2026-10-13T08:00:00Z",
+    "filter_context": {
+      "_QuarterSelector[Quarter Label]": [
+        "Q4-2026"
+      ],
+      "Pipeline[Platform]": [
+        "Plataforma Alfa"
+      ],
+      "other_filters": "Fixture sintetica; nao e um contexto recuperado do PBIX.",
+      "report_filter": "Pipeline[Show Row - Closed This Year Or Blank] IN {1}: nao avaliado na demo."
+    },
+    "certification": {
+      "status": "DEMO",
+      "scope": "values_in_fixed_context",
+      "value_parity": false,
+      "filter_context_parity": false,
+      "access_policy_parity": false,
+      "presentation_reviewed": false
+    },
+    "cards": [
+      {
+        "id": "qoq",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals QoQ %]",
+        "label": "Deals QoQ %",
+        "value": -0.85,
+        "formatted_value": "-85.0%"
+      },
+      {
+        "id": "yoy",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals YoY %]",
+        "label": "Deals YoY %",
+        "value": -0.8,
+        "formatted_value": "-80.0%"
+      },
+      {
+        "id": "share",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deal Share %]",
+        "label": "Deal Share %",
+        "value": 0.25,
+        "formatted_value": "25.0%"
+      }
+    ],
+    "charts": [
+      {
+        "id": "quarter_trend",
+        "source_visual_id": "3d3aa269bdf829ab3228",
+        "title": "Deals por trimestre | Current e QoQ",
+        "x_label": "Trimestre",
+        "y_label": "Deals Current",
+        "y2_label": "QoQ %",
+        "y_format": "number",
+        "y2_format": "percent",
+        "barmode": "group",
+        "traces": [
+          {
+            "name": "Deals Current",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              120,
+              144,
+              180,
+              192,
+              216,
+              240,
+              36
+            ],
+            "display_y": [
+              "120",
+              "144",
+              "180",
+              "192",
+              "216",
+              "240",
+              "36"
+            ]
+          },
+          {
+            "name": "Deals QoQ %",
+            "kind": "line",
+            "axis": "y2",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.2,
+              0.25,
+              0.06666666666666667,
+              0.125,
+              0.1111111111111111,
+              -0.85
+            ],
+            "display_y": [
+              "+25.0%",
+              "+20.0%",
+              "+25.0%",
+              "+6.7%",
+              "+12.5%",
+              "+11.1%",
+              "-85.0%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "record_mix",
+        "source_visual_id": "afcad4e30e1c469b2af6",
+        "title": "Composicao por RecordType | ilustracao sintetica",
+        "x_label": "Trimestre",
+        "y_label": "Participacao",
+        "y_format": "percent",
+        "barmode": "stack",
+        "traces": [
+          {
+            "name": "Deals (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "display_y": [
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%"
+            ]
+          },
+          {
+            "name": "Outros (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "display_y": [
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%"
+            ]
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "platform_comparison",
+        "source_visual_id": "d10c1346ba3734f7921a",
+        "title": "Comparacao por Platform",
+        "columns": [
+          "Platform",
+          "Current | Q4-2026",
+          "Previous | Q3-2026",
+          "LY | Q4-2025"
+        ],
+        "rows": [
+          [
+            "Plataforma Alfa",
+            "36",
+            "240",
+            "180"
+          ],
+          [
+            "Total",
+            "36",
+            "240",
+            "180"
+          ]
+        ]
+      },
+      {
+        "id": "originator_comparison",
+        "source_visual_id": "8595ad90d8fc50e062e1",
+        "title": "Comparacao por Originator",
+        "columns": [
+          "Originator",
+          "Current | Q4-2026",
+          "Previous | Q3-2026",
+          "LY | Q4-2025"
+        ],
+        "rows": [
+          [
+            "Originador A",
+            "18",
+            "120",
+            "90"
+          ],
+          [
+            "Originador B",
+            "18",
+            "120",
+            "90"
+          ],
+          [
+            "Total",
+            "36",
+            "240",
+            "180"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Dados 100% sinteticos, criados apenas para testar navegacao e renderizacao.",
+      "Nenhum numero foi extraido de Pipeline ou calculado com o DAX original.",
+      "A fixture contem uma serie historica independente do trimestre selecionado; nao comprova as interacoes NoFilter.",
+      "Em producao, totais, BLANK, formatacao e comparacoes devem vir dos resultados homologados."
+    ]
+  },
+  {
+    "schema_version": 1,
+    "snapshot_id": "demo-Q4-2026-beta",
+    "release_id": "DEMO-ONLY",
+    "source_sha256": "0a9bf5f90757614d519d060eff0210ff1069249046e19b1c34cf611a502f682e",
+    "page_id": "e9fb9076fe9caa4e4077",
+    "page_title": "Quarter Performance",
+    "quarter": "Q4-2026",
+    "context_id": "beta",
+    "context_label": "Plataforma Beta (DEMO)",
+    "is_default": false,
+    "as_of": "2026-10-13T08:00:00Z",
+    "filter_context": {
+      "_QuarterSelector[Quarter Label]": [
+        "Q4-2026"
+      ],
+      "Pipeline[Platform]": [
+        "Plataforma Beta"
+      ],
+      "other_filters": "Fixture sintetica; nao e um contexto recuperado do PBIX.",
+      "report_filter": "Pipeline[Show Row - Closed This Year Or Blank] IN {1}: nao avaliado na demo."
+    },
+    "certification": {
+      "status": "DEMO",
+      "scope": "values_in_fixed_context",
+      "value_parity": false,
+      "filter_context_parity": false,
+      "access_policy_parity": false,
+      "presentation_reviewed": false
+    },
+    "cards": [
+      {
+        "id": "qoq",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals QoQ %]",
+        "label": "Deals QoQ %",
+        "value": -0.85,
+        "formatted_value": "-85.0%"
+      },
+      {
+        "id": "yoy",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deals YoY %]",
+        "label": "Deals YoY %",
+        "value": -0.8,
+        "formatted_value": "-80.0%"
+      },
+      {
+        "id": "share",
+        "source_visual_id": "22bb00a877b1667e72b5",
+        "measure": "_QuarterComparison[Q. Deal Share %]",
+        "label": "Deal Share %",
+        "value": 0.25,
+        "formatted_value": "25.0%"
+      }
+    ],
+    "charts": [
+      {
+        "id": "quarter_trend",
+        "source_visual_id": "3d3aa269bdf829ab3228",
+        "title": "Deals por trimestre | Current e QoQ",
+        "x_label": "Trimestre",
+        "y_label": "Deals Current",
+        "y2_label": "QoQ %",
+        "y_format": "number",
+        "y2_format": "percent",
+        "barmode": "group",
+        "traces": [
+          {
+            "name": "Deals Current",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              80,
+              96,
+              120,
+              128,
+              144,
+              160,
+              24
+            ],
+            "display_y": [
+              "80",
+              "96",
+              "120",
+              "128",
+              "144",
+              "160",
+              "24"
+            ]
+          },
+          {
+            "name": "Deals QoQ %",
+            "kind": "line",
+            "axis": "y2",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.2,
+              0.25,
+              0.06666666666666667,
+              0.125,
+              0.1111111111111111,
+              -0.85
+            ],
+            "display_y": [
+              "+25.0%",
+              "+20.0%",
+              "+25.0%",
+              "+6.7%",
+              "+12.5%",
+              "+11.1%",
+              "-85.0%"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "record_mix",
+        "source_visual_id": "afcad4e30e1c469b2af6",
+        "title": "Composicao por RecordType | ilustracao sintetica",
+        "x_label": "Trimestre",
+        "y_label": "Participacao",
+        "y_format": "percent",
+        "barmode": "stack",
+        "traces": [
+          {
+            "name": "Deals (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25,
+              0.25
+            ],
+            "display_y": [
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%",
+              "25.0%"
+            ]
+          },
+          {
+            "name": "Outros (DEMO)",
+            "kind": "bar",
+            "axis": "y",
+            "x": [
+              "Q2-2025",
+              "Q3-2025",
+              "Q4-2025",
+              "Q1-2026",
+              "Q2-2026",
+              "Q3-2026",
+              "Q4-2026"
+            ],
+            "y": [
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75,
+              0.75
+            ],
+            "display_y": [
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%",
+              "75.0%"
+            ]
+          }
+        ]
+      }
+    ],
+    "tables": [
+      {
+        "id": "platform_comparison",
+        "source_visual_id": "d10c1346ba3734f7921a",
+        "title": "Comparacao por Platform",
+        "columns": [
+          "Platform",
+          "Current | Q4-2026",
+          "Previous | Q3-2026",
+          "LY | Q4-2025"
+        ],
+        "rows": [
+          [
+            "Plataforma Beta",
+            "24",
+            "160",
+            "120"
+          ],
+          [
+            "Total",
+            "24",
+            "160",
+            "120"
+          ]
+        ]
+      },
+      {
+        "id": "originator_comparison",
+        "source_visual_id": "8595ad90d8fc50e062e1",
+        "title": "Comparacao por Originator",
+        "columns": [
+          "Originator",
+          "Current | Q4-2026",
+          "Previous | Q3-2026",
+          "LY | Q4-2025"
+        ],
+        "rows": [
+          [
+            "Originador A",
+            "12",
+            "80",
+            "60"
+          ],
+          [
+            "Originador B",
+            "12",
+            "80",
+            "60"
+          ],
+          [
+            "Total",
+            "24",
+            "160",
+            "120"
+          ]
+        ]
+      }
+    ],
+    "notes": [
+      "Dados 100% sinteticos, criados apenas para testar navegacao e renderizacao.",
+      "Nenhum numero foi extraido de Pipeline ou calculado com o DAX original.",
+      "A fixture contem uma serie historica independente do trimestre selecionado; nao comprova as interacoes NoFilter.",
+      "Em producao, totais, BLANK, formatacao e comparacoes devem vir dos resultados homologados."
+    ]
+  }
+]
